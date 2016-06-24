@@ -1,0 +1,177 @@
+/* HEADER */
+
+.main-header {
+    position: relative;
+}
+
+/* Logo */
+
+.main-header .logo {
+    text-align: left;
+    font-family: "Sweet Sorrow";
+    background: antiquewhite;
+    padding-left: 60px;
+}
+
+.container-sun {
+    text-align: left;
+}
+
+/* the svg element */
+.svg-sun {
+    width: 200px;
+    padding-left: 22px;
+
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: 50% 50%;
+    -o-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: 50% 50%;
+
+    -webkit-animation: spin 25s linear infinite, sun-glow 3s 0s linear infinite;
+    -moz-animation: spin 25s linear infinite, sun-glow 3s 0s linear infinite;
+    -o-animation: spin 25s linear infinite, sun-glow 3s 0s linear infinite;
+    -ms-animation: spin 25s linear infinite, sun-glow 3s 0s ease-in-out infinite;
+    animation: spin 25s linear infinite, sun-glow 3s 0s linear infinite;
+
+}
+
+/* the circle element in the svg itself */
+#sun {
+    stroke-width: 18;
+    stroke-dasharray: 2;
+    stroke-dashoffset: 2;
+}
+
+/* animation for the sun glowing effect */
+@keyframes sun-glow {
+    0% {
+        fill: #f1c40f;
+        stroke: #f1c40f;
+    }
+    50% {
+        fill: #e67e22;
+        stroke: #e67e22;
+    }
+    100% {
+        fill: #f1c40f;
+        stroke: #f1c40f;
+    }
+}
+
+.logo > .text {
+    position: absolute;
+    padding-top: 64px;
+    font-size: 31px;
+}
+
+
+/* Newsletter */
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+form {
+    border-radius: 5px;
+    overflow: hidden;
+    width: 240px;
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+input {
+    border-radius: 5px;
+    margin: 0;
+}
+.account-info {
+    padding: 20px 20px 0 20px;
+}
+.account-info label {
+    color: #395870;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.account-info input {
+    background: #fff;
+    border: 1px solid #c6c7cc;
+    box-shadow: inset 0 1px 1px rgba(80, 41, 41, 0.3);
+    color: #636466;
+    padding: 6px;
+    margin-top: 6px;
+    width: 100%;
+}
+.account-action {
+    padding: 20px;
+}
+.account-action .btn {
+    background: linear-gradient(#bfb862, rgba(80, 41, 41, 0.3));
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    float: left;
+    padding: 8px 16px;
+}
+.account-action label {
+    color: #7c7c80;
+    font-size: 12px;
+    float: left;
+    margin: 10px 0 0 20px;
+}
+.newsletter {
+    position: absolute;
+    right: 170px;
+    top: 7px;
+}
+
+/* MENU */
+
+.main-header .navigation {
+    list-style: none;
+    margin: 0;
+    background: #333;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-between;
+    padding-left: 307px;
+}
+
+.main-header .navigation a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px;
+    color: white;
+}
+
+.main-header .navigation a:hover {
+    background: rgba(255,255,255,0.3); color: #eeeeaa;
+}
+
+@media all and (max-width: 830px) {
+    .navigation {
+        justify-content: space-around;
+    }
+}
+@media all and (max-width: 600px) {
+    .navigation {
+        -webkit-flex-flow: column wrap;
+        flex-flow: column wrap;
+        padding: 0;
+    }
+    .navigation a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .navigation li:last-of-type a {
+        border-bottom: none;	}
+
+}

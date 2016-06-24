@@ -1,0 +1,119 @@
+/* captain_foto */
+
+.captain_foto > img {
+    width: 777px;
+    margin-top: 50px;
+}
+
+.captain_foto {
+    text-align: center;
+}
+
+/* travellingPlans */
+
+.travellingPlans {
+    width: 290px;
+    margin-left: 200px;
+    padding: 16px;
+    background: beige;
+}
+
+.travellingPlans ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.travellingPlans ul li:last-child {
+    border: none;
+}
+
+.travellingPlans ul li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 225px;
+
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+.travellingPlans ul li a:hover {
+    font-size: 30px;
+    background: #f6f6f6;
+}
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ ul li {
+    font-family: "Comic Sans MS";
+}
+
+li:last-child {
+    border: none;
+}
+
+.travellingPlans ul li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    font-size: 30px;
+    background: #f6f6f6;
+}
+
+
+.travel_fotos ul li {
+    display: inline-block;
+
+}
+
+.travel_fotos {
+    text-align: center;
+    padding-top: 64px;
+}
+
+.travel_fotos img {
+    width: 185px;
+    text-align: center;
+    margin: 0 30px;
+}
+.footerinfo {
+    background: antiquewhite;
+    font-size: 22px;
+    text-align: center;
+    height: 100px;
+    padding: 79px;
+    margin-top: 58px;
+    position: inherit;
+    bottom: 0;
+}
+
+/* BLOG */
+h1 {
+    padding-left: 80px;
+}
+
+/* About */
+.about p {
+    padding-left: 20px;
+    text-indent: 1.5em;
+}
+
+/*Contact*/
+.address {
+    position: absolute;
+    left: 434px;
+    top: 341px;
+    font-size: 20px;
+}
+
+.contact_address {
+    padding-left: 50px;
+}

@@ -65,7 +65,6 @@
     font-size: 31px;
 }
 
-
 /* Newsletter */
 
 *,
@@ -73,29 +72,35 @@
 *:after {
     box-sizing: border-box;
 }
+
 form {
     border-radius: 5px;
     overflow: hidden;
     width: 240px;
 }
+
 fieldset {
     border: 0;
     margin: 0;
     padding: 0;
 }
+
 input {
     border-radius: 5px;
     margin: 0;
 }
+
 .account-info {
     padding: 20px 20px 0 20px;
 }
+
 .account-info label {
     color: #395870;
     display: block;
     font-weight: bold;
     margin-bottom: 20px;
 }
+
 .account-info input {
     background: #fff;
     border: 1px solid #c6c7cc;
@@ -105,9 +110,11 @@ input {
     margin-top: 6px;
     width: 100%;
 }
+
 .account-action {
     padding: 20px;
 }
+
 .account-action .btn {
     background: linear-gradient(#bfb862, rgba(80, 41, 41, 0.3));
     border: 0;
@@ -117,12 +124,14 @@ input {
     float: left;
     padding: 8px 16px;
 }
+
 .account-action label {
     color: #7c7c80;
     font-size: 12px;
     float: left;
     margin: 10px 0 0 20px;
 }
+
 .newsletter {
     position: absolute;
     right: 170px;
@@ -139,7 +148,7 @@ input {
     display: flex;
     -webkit-flex-flow: row wrap;
     justify-content: space-between;
-    padding-left: 307px;
+    padding-left: 18px;
 }
 
 .main-header .navigation a {
@@ -150,7 +159,8 @@ input {
 }
 
 .main-header .navigation a:hover {
-    background: rgba(255,255,255,0.3); color: #eeeeaa;
+    background: rgba(255, 255, 255, 0.3);
+    color: #eeeeaa;
 }
 
 @media all and (max-width: 830px) {
@@ -158,12 +168,14 @@ input {
         justify-content: space-around;
     }
 }
+
 @media all and (max-width: 600px) {
     .navigation {
         -webkit-flex-flow: column wrap;
         flex-flow: column wrap;
         padding: 0;
     }
+
     .navigation a {
         display: block;
         text-align: center;
@@ -171,7 +183,9 @@ input {
         border-top: 1px solid rgba(255, 255, 255, 0.3);
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     }
+
     .navigation li:last-of-type a {
-        border-bottom: none;	}
+        border-bottom: none;
+    }
 
 }

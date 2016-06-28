@@ -1,21 +1,24 @@
 /* captain_foto */
 
 .captain_foto > img {
-    width: 777px;
+    width: 595px;
     margin-top: 50px;
 }
 
 .captain_foto {
-    text-align: center;
+    text-align: left;
+    padding-left: 47px;
 }
 
 /* travellingPlans */
 
 .travellingPlans {
-    width: 290px;
-    margin-left: 200px;
-    padding: 16px;
+    width: 300px;
+    padding: 37px;
     background: beige;
+    position: absolute;
+    right: 238px;
+    top: 276px;
 }
 
 .travellingPlans ul {
@@ -23,6 +26,7 @@
     margin: 0;
     padding: 0;
 }
+
 .travellingPlans ul li:last-child {
     border: none;
 }
@@ -45,13 +49,13 @@
     background: #f6f6f6;
 }
 
- ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
- ul li {
+ul li {
     font-family: "Comic Sans MS";
 }
 
@@ -68,7 +72,6 @@ li a:hover {
     background: #f6f6f6;
 }
 
-
 .travel_fotos ul li {
     display: inline-block;
 
@@ -84,6 +87,7 @@ li a:hover {
     text-align: center;
     margin: 0 30px;
 }
+
 .footerinfo {
     background: antiquewhite;
     font-size: 22px;
@@ -91,8 +95,9 @@ li a:hover {
     height: 100px;
     padding: 79px;
     margin-top: 58px;
-    position: inherit;
+    position: absolute;
     bottom: 0;
+    width: 100%;
 }
 
 /* BLOG */
@@ -116,4 +121,14 @@ h1 {
 
 .contact_address {
     padding-left: 50px;
+}
+
+.home > .footerinfo {
+    font-size: 22px;
+    text-align: center;
+    height: 100px;
+    padding: 79px;
+    margin-top: 58px;
+    position: inherit;
+    bottom: 0;
 }
